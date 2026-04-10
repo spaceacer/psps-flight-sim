@@ -135,11 +135,11 @@ export function createB737() {
         mesh: airplane,
         specs: {
             mass: 400,      // kg (Reduced weight for the smaller wing profile)
-            wingArea: 9.6,    // Total surface area of the new wings
+            wingArea: 10,    // Total surface area of the new wings
             mac: 4.0,         // Mean Aerodynamic Chord
             cgZ: 0.0,         // Center of Gravity location
             acZ: 0.1,         // Aerodynamic Center location
-            maxThrust: 20000 // Max engine force in Newtons
+            maxThrust: 3000 // Max engine force in Newtons
         }
     };
 }
